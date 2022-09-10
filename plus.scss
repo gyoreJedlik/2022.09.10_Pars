@@ -1,0 +1,15 @@
+@mixin tableHeader {
+    border-top: 3px solid darkblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+@for $i from 1 to 9 {
+    @if $i % 3 == 0 or $i == 1 {
+        tr:nth-child(#{$i}){
+            @include tableHeader();
+        }        
+    }
+}

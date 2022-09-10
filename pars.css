@@ -1,0 +1,93 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: burlywood;
+
+}
+
+p strong {
+    color: brown;
+}
+
+.foKepek {
+    width: 20rem;
+    margin: auto;
+    display: block;
+    box-shadow: 5px 5px #666;
+}
+
+table {
+    margin: auto;
+    border: solid 3px darkblue;
+    width: 300px;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+td, tr, th {
+    border: 1px solid darkblue;
+}
+
+#forras {
+    text-align: right;
+}
+
+#tartalom {
+    width: 1000px;
+    background-color: #fbf9ea;
+    color: #444;
+    margin: auto;
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    letter-spacing: 0.1rem;
+}
+
+h3 {
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+}
+
+tr:nth-child(2), tr:nth-child(8), tr:nth-child(9) {
+    background-color: gold;
+}
+
+tr:nth-child(4),tr:nth-child(5)  {
+    background-color: silver ;
+}
+
+tr:nth-child(7) {
+    background-color: indianred;
+}
+
+.urlap {
+    border: 3px dotted darkblue;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#erem {
+    width: 100px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+#versenyek {
+    display: block;
+    margin: auto;
+}
